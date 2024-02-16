@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
+body {
+  font-family: "Pixelify Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-image: url("./images/background.gif");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.main-title {
+  margin-left: 52vw;
+}
+
+.main-title > h1 {
+  font-size: 70px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 40vw 60vw 50vh;
+}
+
+.caracter-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3vw;
+}
+
+.caracter-div > div > img {
+  padding: 1vw;
+  border-radius: 7.5%;
+  width: 170px;
+  filter: drop-shadow(0 0 2rem rgb(0, 0, 0));
+}
+
+.aside {
+  height: 600px;
+  width: 350px;
+  background-color: black;
+  border-radius: 7.5%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aside > h2 {
+  color: white;
+  text-align: center;
+}
+
+.aside > img {
+  width: 340px;
+  filter: drop-shadow(0 0 2rem rgb(0, 0, 0));
+  margin-top: 40px;
+}
+
+.play {
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  color: white;
+  border-radius: 5px;
+  width: 160px;
+  text-align: center;
+  margin-left: 15.4vw;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 8px;
+}
+
+.play > h1 {
+  font-size: 65px;
+  margin: 0;
+}
